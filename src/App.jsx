@@ -21,7 +21,7 @@ function App() {
   });
 
   useEffect(() => {
-    fetch("https://6859df299f6ef961115471c1.mockapi.io/api/v1/restaurants") // ganti dengan URL kamu
+    fetch("https://6859df299f6ef961115471c1.mockapi.io/api/v1/restaurants")
       .then((res) => res.json())
       .then((data) => setRestaurants(data))
       .catch((err) => console.error("Error fetching data:", err));
@@ -41,7 +41,7 @@ function App() {
         setSelectedCategory={setSelectedCategory}
         categories={categories}
       />
-      <section>
+      <section className="mb-8">
         <h2 className="text-xl font-semibold mb-4">All Restaurants</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {filteredRestaurants.map((item) => (

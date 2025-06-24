@@ -9,7 +9,6 @@ function FilterNavigation({
 }) {
   return (
     <div className="mb-6 flex flex-wrap gap-4 items-center border-y-1 p-5 border-gray-400">
-      {/* Filter: Open Now */}
       <label className="flex items-center gap-2">
         <input
           type="checkbox"
@@ -19,7 +18,6 @@ function FilterNavigation({
         <span className="text-gray-800">Open Now</span>
       </label>
 
-      {/* Filter: Price Dropdown */}
       <label className="flex items-center gap-2">
         <span className="text-gray-800">Price:</span>
         <select
