@@ -8,7 +8,7 @@ function FilterNavigation({
   categories,
 }) {
   return (
-    <div className="mb-6 flex flex-wrap gap-4 items-center">
+    <div className="mb-6 flex flex-wrap gap-4 items-center border-y-1 p-5 border-gray-400">
       {/* Filter: Open Now */}
       <label className="flex items-center gap-2">
         <input
