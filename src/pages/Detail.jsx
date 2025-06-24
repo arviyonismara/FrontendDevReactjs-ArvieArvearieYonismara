@@ -38,8 +38,6 @@ const Detail = () => {
         alt={restaurant.name}
         className="w-full mt-4 rounded-md shadow-md"
       />
-
-      {/* Optional: section for reviews or map */}
     </div>
   );
 };
